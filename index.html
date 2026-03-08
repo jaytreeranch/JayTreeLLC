@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JayTree LLC - Forestry Mulching & Land Clearing | Central Texas</title>
+  <meta name="description" content="JayTree LLC provides professional forestry mulching, brush removal, and land clearing services in Central Texas. Eco-friendly, veteran-owned. Free estimates!"/>
+  <style>
+    :root {
+      --primary: #2e7d32;      /* Dark green */
+      --secondary: #4caf50;    /* Lighter green */
+      --dark: #1b5e20;
+      --light: #f5f5f5;
+      --gray: #333;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background: #fff;
+    }
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(27, 94, 32, 0.9);
+      color: white;
+      padding: 1rem 0;
+      z-index: 1000;
+      transition: background 0.3s;
+    }
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2rem;
+    }
+    nav h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+    }
+    nav a:hover { color: #a5d6a7; }
+
+    #hero {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('https://s7d2.scene7.com/is/image/Caterpillar/CM20190926-71f65-41a5d') center/cover no-repeat;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    #hero h2 {
+      font-size: 3.5rem;
+      margin: 0 0 1rem;
+    }
+    #hero p {
+      font-size: 1.5rem;
+      margin: 0 0 2rem;
+    }
+    .btn {
+      background: var(--secondary);
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .btn:hover { background: var(--primary); }
+
+    section {
+      padding: 5rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
+      color: var(--primary);
+      margin-bottom: 2rem;
+      font-size: 2.8rem;
+    }
+
+    #about { background: var(--light); }
+    #services { background: white; }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .service-card {
+      background: #f9f9f9;
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    #gallery {
+      background: var(--light);
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery-item img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    }
+    .gallery-item p {
+      text-align: center;
+      margin: 0.5rem 0 0;
+      font-weight: bold;
+    }
+
+    #contact {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: grid;
+      gap: 1.2rem;
+    }
+    input, textarea {
+      padding: 1rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background: var(--secondary);
+      color: white;
+      border: none;
+      padding: 1rem;
+      font-size: 1.2rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover { background: var(--primary); }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      #hero h2 { font-size: 2.5rem; }
+      #hero p { font-size: 1.2rem; }
+      nav { flex-direction: column; gap: 1rem; }
+      nav a { margin: 0 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>JayTree LLC</h1>
+      <div>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div>
+      <h2>Professional Forestry Mulching & Land Clearing</h2>
+      <p>Eco-Friendly Solutions for Residential, Commercial & Agricultural Properties in Central Texas</p>
+      <a href="#contact" class="btn">Get Your Free Estimate Today</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About JayTree LLC</h2>
+    <p style="max-width:800px; margin:0 auto; font-size:1.2rem; text-align:center;">
+      JayTree LLC is a 100% veteran-owned business specializing in sustainable forestry mulching and land clearing services across Central Texas. 
+      Using state-of-the-art compact track loaders with high-flow mulchers and brush cutters, we transform overgrown land into usable space while enriching the soil and minimizing environmental impact—no burning, no hauling debris.
+    </p>
+    <p style="text-align:center; margin-top:1rem;">
+      <strong>Proudly Veteran-Owned • Serving Austin, Round Rock, and Surrounding Areas</strong>
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Forestry Mulching</h3>
+        <p>Grind trees, brush, and undergrowth into nutrient-rich mulch on-site. Perfect for wildfire mitigation, trail creation, and property prep.</p>
+      </div>
+      <div class="service-card">
+        <h3>Brush & Land Clearing</h3>
+        <p>Efficient removal of dense vegetation for building sites, fence lines, pastures, and right-of-ways using industrial attachments.</p>
+      </div>
+      <div class="service-card">
+        <h3>Custom Projects</h3>
+        <p>From small residential lots to larger commercial/agricultural sites—we handle it all with precision and care.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Before & After Gallery</h2>
+    <div class="gallery-grid">
+      <!-- Before/After pairs and action shots -->
+      <div class="gallery-item">
+        <img src="https://groundedlandsolutions.com/wp-content/uploads/2024/12/008-forestry-mulching-before-and-after.webp" alt="Before and After: Dense forest cleared to open land">
+        <p>Before & After - Overgrown to cleared</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://groundedlandsolutions.com/wp-content/uploads/2024/12/005-forestry-mulching-before-and-after.webp" alt="Before and After: Wooded area transformed">
+        <p>Before & After - Trees to mulch-covered ground</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://groundedlandsolutions.com/wp-content/uploads/2024/12/016-forestry-mulching-before-and-after.webp" alt="Before and After: Thick woods to open space">
+        <p>Before & After - Dense woods cleared</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://groundedlandsolutions.com/wp-content/uploads/2024/12/002-forestry-mulching-before-and-after.webp" alt="Before and After: Residential lot clearing">
+        <p>Before & After - Property prep results</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://i.ytimg.com/vi/C7bZ1NTkg68/sddefault.jpg" alt="Compact track loader mulching trees in action">
+        <p>Mulching in Action</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://res.cloudinary.com/doosan-bobcat/image/upload/b_transparent,c_pad,dpr_2.0,f_auto,g_center,h_300,q_auto,w_400/c_pad,h_300,w_400/v1/bobcat-assets/na-approved/products/loaders/compact-track-loaders/t86-r/images/bobcat-t86-loader-drum-mulcher-e35a3301-21i1?pgw=1" alt="Bobcat compact loader with mulcher attachment">
+        <p>Compact Loader with Mulcher</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://compactequip.com/wp-content/uploads/2021/03/loftness-battle-ax-skid-steer-700x487.jpg" alt="Skid steer forestry mulcher attachment close-up">
+        <p>Forestry Mulcher Attachment</p>
+      </div>
+      <div class="gallery-item">
+        <img src="https://s7d2.scene7.com/is/image/Caterpillar/CM20190926-71f65-41a5d" alt="Caterpillar 299D3 mulching dense brush">
+        <p>Heavy-Duty Mulching Operation</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Ready to clear your land? Fill out the form below for a free estimate.</p>
+    <form action="https://formspree.io/f/your-form-id" method="POST"> <!-- Replace with your Formspree/Getform endpoint -->
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required>
+      <textarea name="message" rows="5" placeholder="Tell us about your project (acres, location, etc.)" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 JayTree LLC | 100% Veteran-Owned | Central Texas | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
