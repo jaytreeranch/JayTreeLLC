@@ -44,3 +44,6 @@ A stage is **not complete** until (a) the affected source, tests and documentati
 Before meaningful development, establish a project repository or owner-approved existing repository and create these handoff documents. Never pretend a new repository exists. Until established, preserve locally with explicit `GITHUB_NOT_CONFIGURED` and an actionable next step.
 
 This document is a workflow contract, not an authorization to bypass access controls, publish, delete, deploy, or incur spending.
+
+## Compatibility with existing JayTree project handoffs (2026-10-31 addendum)
+Where a repository's existing `AGENTS.md` or project instructions define `docs/CURRENT_HANDOFF.md` or `docs/CURRENT_STATUS.md`, keep that established file as the **authoritative current-status handoff** and append timestamped stages under `docs/handoffs/`. Do not create competing status trackers. The `docs/handoff/JAYTREE_START_HERE.md` and `JAYTREE_STAGE_LOG.md` names in this policy are an accepted alternative for repositories already using them, not a requirement to replace stricter project conventions. For private infrastructure and authorized-host details, the canonical operational policy is the private `jaytreeranch/JayTree-Video-Studio/docs/JAYTREE_DEVELOPMENT_CONTINUITY_POLICY.md`. Project security rules always take precedence over a generic template.
